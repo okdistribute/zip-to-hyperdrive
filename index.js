@@ -1,6 +1,7 @@
 var yauzl = require('yauzl')
 
 module.exports = function (zipfile, archive, done) {
+  if (!done) done = function () {}
   if (zipfile.readEntry) {
     convert(null, zipfile)
   } else if (zipfile instanceof Buffer) {

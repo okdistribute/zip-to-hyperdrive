@@ -1,7 +1,7 @@
 {
   "name": "zip-to-hyperdrive",
   "version": "1.0.0",
-  "description": "turn a zip file into a hyperdrive",
+  "description": "Add files from a zip archive to a hyperdrive archive.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
