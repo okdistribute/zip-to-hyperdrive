@@ -31,4 +31,4 @@ hyperzip('/path/to/zipfile.zip', archive, done)
 
 Adds files to the given archive. The `cb`  will be called once all files have been read and their contents added to the hyperdrive archive.
 
-`zipfile` can be a path to a file on the local filesystem, a `yauzl` zipfile object, or a Buffer.
+`zipfile` can be a path to a file on the local filesystem, a `yauzl` zipfile object, or a `Buffer`.
